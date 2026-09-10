@@ -1,6 +1,6 @@
 name = "alembic"
 
-version = "1.8.6.hh.1.0.0"
+version = "1.8.6.hh.1.0.1"
 
 authors = [
     "Sony Pictures Imageworks",
@@ -41,6 +41,7 @@ def commands():
 
     env.PATH.append("{root}/bin")
     env.PATH.append("{root}/lib")
+    env.LD_LIBRARY_PATH.append("{root}/lib")
 
     if "python" in resolve:
         python_ver = resolve["python"].version
