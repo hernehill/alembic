@@ -19,7 +19,7 @@ requires = [
     "boost-1.82",
 ]
 
-private_build_requires = []
+private_build_requires = ["visual_studio"]
 
 variants = [
     ["python-3.9"],
