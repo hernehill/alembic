@@ -27,3 +27,8 @@ build
 
 # Build Folder
 BUILD
+
+# HH
+_rez_build
+.vscode
+.idea
